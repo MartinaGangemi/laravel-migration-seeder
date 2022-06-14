@@ -10,20 +10,9 @@ class TravelsTableSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        $travels = [
-           [
-            'prezzo' => 2999,99,
-            'destinazione' => 'Tokyo',
-            'data_partenza'=> '2002-05-21',
-            'numero_giorni'=> 8,
-            'numero_notti'=>7,
-            'tipo_di_camera'=>'camera doppia',
-            'volo_incluso'=> true,
-            'descrizione'=> 'lorem ipsum dolor lorem ipsum dolor',
-            'immagine' =>'https://www.travel365.it/foto/tempio-sensoji-tokyo-giapponesi-parlano.jpg',
-           ]
-        ];
+    {   
+        $travels = config(db.travels);
+       
 
         foreach ($travels as $travel){
             $object_travel = new Travel();
