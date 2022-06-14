@@ -28,7 +28,7 @@ class CreateTravelTable extends Migration
 
         });
 
-        Schema::rename('travel','travels');
+        // Schema::rename('travel','travels');
     }
 
     /**
