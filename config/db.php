@@ -3,7 +3,7 @@
 return [
     'travels' => [
            [
-            'prezzo' => 2999,99,
+            'prezzo' => 2999.99,
             'destinazione' => 'Tokyo',
             'data_partenza'=> '2002-05-21',
             'numero_giorni'=> 8,
@@ -14,7 +14,7 @@ return [
             'immagine' =>'https://www.travel365.it/foto/tempio-sensoji-tokyo-giapponesi-parlano.jpg',
            ],
            [
-            'prezzo' => 2999,99,
+            'prezzo' => 2999.99,
             'destinazione' => 'Londra',
             'data_partenza'=> '2002-05-21',
             'numero_giorni'=> 8,
@@ -25,7 +25,7 @@ return [
             'immagine' =>'https://www.kaplaninternational.com/files/styles/hero_banner_k_mb/public/school/featured/kaplan-english-school-in-London-4.jpg?itok=WTnubTro',
            ],
            [
-            'prezzo' => 2999,99,
+            'prezzo' => 2999.99,
             'destinazione' => 'Mordor',
             'data_partenza'=> '2002-05-21',
             'numero_giorni'=> 8,
