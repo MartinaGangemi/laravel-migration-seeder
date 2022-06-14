@@ -27,6 +27,8 @@ class CreateTravelTable extends Migration
             $table->string('immagine')->nullable();
 
         });
+
+        Schema::rename('travel','travels');
     }
 
     /**
